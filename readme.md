@@ -2,18 +2,31 @@ AOSPA Manifests
 ========================
 Project for motorola Moto G 2014 LTE (THEA)
 
+### Installing Repo ###
+```bash
+# Make a directory where Repo will be stored and add it to the path
+    $mkdir ~/.bin
+    $PATH=~/.bin:$PATH
 
-Initializing Repo
+# Download Repo itself
+    $curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 
-    repo init -u https://github.com/AOSPA/manifest -b lollipop-mr1
+# Make Repo executable
+    $chmod a+x ~/.bin/repo
+```
 
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/RolanDroid/manifest/Lollipop-5.1.1/local_manifest.xml
+### Initializing Repo ###
+```bash
+    $repo init -u https://github.com/AOSPA/manifest -b lollipop-mr1
 
-For sync:
-
-    repo sync -j4 (default)
-    repo sync -j32 (optional)
-
-and run the builder tool.
-
-    ./rom-build.sh DEVICE
+    $curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/RolanDroid/manifest/Lollipop-5.1.1/local_manifest.xml
+```
+### For sync: ###
+```bash
+    $repo sync -j4 (default)
+    $repo sync -j32 (optional)
+```
+### and run the builder tool. ###
+```bash
+    $./rom-build.sh thea
+```
