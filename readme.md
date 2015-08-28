@@ -17,7 +17,7 @@ Project for motorola Moto G 2014 LTE (THEA)
 
 ### Initializing Repo ###
 ```bash
-    $repo init -u https://github.com/AOSPA/manifest -b lollipop-mr1
+    $repo init -u https://github.com/RolanDroid/manifest -b lollipop-mr1
 
     $curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/RolanDroid/manifest/Lollipop-5.1.1/local_manifest.xml
 ```

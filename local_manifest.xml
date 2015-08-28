@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="RolanDroid/android_device_motorola_msm8226-common" name="android_device_motorola_msm8226-common" revision="cm-12.1" />
+
+  <!-- Device Tree -->.
 	<project path="RolanDroid/android_device_motorola_thea" name="android_device_motorola_thea" revision="cm-12.1" />
+
+  <!-- Motorola MSM8226 -->
+	<project path="RolanDroid/android_device_motorola_msm8226-common" name="android_device_motorola_msm8226-common" revision="cm-12.1" />
 	<project path="RolanDroid/android_kernel_motorola_msm8226" name="android_device_motorola_msm8226" revision="master" />
 	<project path="RolanDroid/proprietary_vendor_motorola" name="proprietary_vendor_motorola" revision="cm-12.1" />
+
+  <!-- Generic MSM8226 -->
+        <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
+        <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
+        <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
+
 </manifest>
