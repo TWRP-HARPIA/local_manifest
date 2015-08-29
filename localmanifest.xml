@@ -2,10 +2,11 @@
 <manifest>
 
   <!-- Device Tree -->.
-	<project path="RolanDroid/android_device_motorola_thea" name="android_device_motorola_thea" revision="cm-12.1" />
+	<project path="RolanDroid/android_device_motorola_thea" name="android_device_motorola_thea" remote="github" revision="cm-12.1" />
 
   <!-- Motorola MSM8226 -->
-	<project path="RolanDroid/android_device_motorola_msm8226-common" name="android_device_motorola_msm8226-common" revision="cm-12.1" />
-	<project path="RolanDroid/android_kernel_motorola_msm8226" name="android_device_motorola_msm8226" revision="master" />
+	<project path="RolanDroid/android_device_motorola_msm8226-common" name="android_device_motorola_msm8226-common" remote="github" revision="cm-12.1" />
+	<project path="RolanDroid/android_kernel_motorola_msm8226" name="android_device_motorola_msm8226" remote="github" revision="master" />
+	<project path="RolanDroid/proprietary_vendor_motorola" name="proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
 
 </manifest>
