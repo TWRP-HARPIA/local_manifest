@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+     <remove-project name="TeamBliss-Devices/proprietary_vendor_htc" />
+     <remove-project name="TeamBliss-Devices/proprietary_vendor_motorola" />
+     <remove-project name="TheMuppets/proprietary_vendor_sony" />
+     <remove-project name="TeamBliss/android_vendor_samsung_i9082" />
+     <remove-project name="TeamBliss-Devices/proprietary_vendor_samsung_galaxys2plus-common" />
+     <remove-project name="TheMuppets/proprietary_vendor_oneplus" />
+     <remove-project name="TheMuppets/proprietary_vendor_oppo" />
+     <remove-project name="TheMuppets/proprietary_vendor_audience" />
+     <remove-project name="TheMuppets/proprietary_vendor_broadcom" />
+     <remove-project name="TheMuppets/proprietary_vendor_widevine" />
+     <remove-project name="TeamBliss-Devices/proprietary_vendor_xiaomi" />
+     <remove-project name="TeamBliss-Devices/android_hardware_samsung" />
+     <remove-project name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
 
-       <remote name="RolanDroid" fetch="https://github.com/RolanDroid/"  />
 
   <!-- Device Tree -->.
-	<project path="android_device_motorola_thea" name="android_device_motorola_thea" revision="cm-12.1" remote="RolanDroid" /> 
+     <project path="android_device_motorola_thea" name="RolanDroid/android_device_motorola_thea" revision="cm-12.1" /> 
 
   <!-- Motorola MSM8226 -->
-	<project path="android_kernel_motorola_msm8226" name="android_kernel_motorola_msm8226"  revision="master" remote="RolanDroid" /> 
-	<project path="android_device_motorola_msm8226-common" name="android_device_motorola_msm8226-common" revision="cm-12.1" remote="RolanDroid" /> 
-	<project path="proprietary_vendor_motorola" name="proprietary_vendor_motorola" revision="cm-12.1" remote="RolanDroid" /> 
+     <project path="android_kernel_motorola_msm8226" name="RolanDroid/android_kernel_motorola_msm8226" revision="master"  /> 
+     <project path="android_device_motorola_msm8226-common" name="RolanDroid/android_device_motorola_msm8226-common" revision="cm-12.1" /> 
+     <project path="proprietary_vendor_motorola" name="RolanDroid/proprietary_vendor_motorola" revision="cm-12.1" remote="github" /> 
 
 </manifest>
