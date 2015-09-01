@@ -4,6 +4,7 @@
      <remove-project name="TeamBliss-Devices/proprietary_vendor_motorola" />
      <remove-project name="TheMuppets/proprietary_vendor_sony" />
      <remove-project name="TeamBliss/android_vendor_samsung_i9082" />
+     <remove-project name="TeamBliss-Devices/proprietary_vendor_samsung" />
      <remove-project name="TeamBliss-Devices/proprietary_vendor_samsung_galaxys2plus-common" />
      <remove-project name="TheMuppets/proprietary_vendor_oneplus" />
      <remove-project name="TheMuppets/proprietary_vendor_oppo" />
