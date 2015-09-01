@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
      <remove-project name="TeamBliss-Devices/proprietary_vendor_htc" />
+     <remove-project name="TeamBliss-Devices/proprietary_vendor_lge" />
      <remove-project name="TeamBliss-Devices/proprietary_vendor_motorola" />
      <remove-project name="TheMuppets/proprietary_vendor_sony" />
+     <remove-project name="TheMuppets/proprietary_vendor_asus" />
      <remove-project name="TeamBliss/android_vendor_samsung_i9082" />
      <remove-project name="TeamBliss-Devices/proprietary_vendor_samsung" />
      <remove-project name="TeamBliss-Devices/proprietary_vendor_samsung_galaxys2plus-common" />
