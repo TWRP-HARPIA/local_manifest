@@ -27,7 +27,8 @@ Project for motorola Moto G 2014 LTE (THEA)
 ### To build for your device.. ###
 ```bash
     $ build/envsetup.sh
-    $ breakfast device name here
+    $ breakfast device_name_here
+    $ brunch device_name_here
 ```
 
 
