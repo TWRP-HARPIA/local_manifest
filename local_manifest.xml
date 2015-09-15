@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="RolanDroid/android_device_motorola_thea" path="device/motorola/thea" revision="cm-12.1" remote="github" />
+  <project name="RolanDroid/android_device_motorola_thea" path="device/motorola/thea" revision="5.1.1" remote="github" />
   <project name="RolanDroid/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" revision="cm-12.1" remote="github" />
   <project name="RolanDroid/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" revision="cm-12.1" remote="github" />
   <project name="RolanDroid/proprietary_vendor_motorola" path="vendor/motorola" revision="cm-12.1" remote="github" />
