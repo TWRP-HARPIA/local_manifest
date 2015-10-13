@@ -5,14 +5,14 @@ Project for motorola Moto G 2014 LTE (THEA)
 ### Installing Repo ###
 ```bash
 # Make a directory where Repo will be stored and add it to the path
-    $mkdir ~/.bin
-    $PATH=~/.bin:$PATH
+    $ mkdir ~/.bin
+    $ PATH=~/.bin:$PATH
 
 # Download Repo itself
-    $curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+    $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 
 # Make Repo executable
-    $chmod a+x ~/.bin/repo
+    $ chmod a+x ~/.bin/repo
 ```
 
 ### Initializing Repo ###
