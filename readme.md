@@ -1,6 +1,5 @@
-THEA-LOCAL_MANIFEST
+LOCAL_MANIFEST
 ========================
-Project for motorola Moto G 2014 LTE (THEA)
 
 ### Installing Repo ###
 ```bash
@@ -17,8 +16,8 @@ Project for motorola Moto G 2014 LTE (THEA)
 
 ### Initializing Repo ###
 ```bash
-    $ repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
-    $ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/cm-12.1/local_manifest.xml
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
+    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/twrp/cm-14.1.xml
 ```
 ### For sync: ###
 ```bash
@@ -26,8 +25,9 @@ Project for motorola Moto G 2014 LTE (THEA)
 ```
 ### To build for your device.. ###
 ```bash
-    $ build/envsetup.sh
-    $ brunch device_name_here
+    $ source build/envsetup.sh
+    $ breakfast osprey
+    $ make -j5 recoveryimage
 ```
 
 
