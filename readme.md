@@ -16,17 +16,17 @@ LOCAL_MANIFEST
 
 ### Initializing Repo ###
 ```bash
-    $ repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
-    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/RolanDroid/local_manifest/twrp/cm-14.1.xml
+    $ repo init -u https://github.com/TWRP-HARPIA/android.git -b cm-14.1
+    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/TWRP-HARPIA/local_manifest/twrp/cm-14.1.xml
 ```
 ### For sync: ###
 ```bash
-    $repo sync -j4
+    $ repo sync -j4
 ```
 ### To build for your device.. ###
 ```bash
     $ source build/envsetup.sh
-    $ breakfast osprey
+    $ breakfast harpia
     $ make -j5 recoveryimage
 ```
 
