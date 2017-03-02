@@ -17,7 +17,7 @@ LOCAL_MANIFEST
 ### Initializing Repo ###
 ```bash
     $ repo init -u https://github.com/TWRP-HARPIA/android.git -b cm-14.1
-    $ curl --create-dirs -L -o .repo/local_manifests/cm-14.1.xml -O -L https://raw.githubusercontent.com/TWRP-HARPIA/local_manifest/twrp/cm-14.1.xml
+    $ curl --create-dirs -L -o .repo/local_manifests/roomservice.xml -O -L https://raw.githubusercontent.com/TWRP-HARPIA/local_manifest/twrp/roomservice.xml
 ```
 ### For sync: ###
 ```bash
