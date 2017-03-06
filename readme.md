@@ -1,4 +1,5 @@
 LOCAL_MANIFEST
+Credits to: Aosp,Omni,LineageOs,Alberto97,lj50036,sultanqasim
 ========================
 
 ### Installing Repo ###
